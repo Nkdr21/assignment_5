@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Anuarbek Nurkadyr</h1>
+        <p>Assignment 5 - JavaScript Basics (DOM Manipulation & Events)</p>
+    </header>
+
+    <main>
+        <section class="box" id="part1">
+            <h2>Part 1: My Profile</h2>
+            <p><strong>Name:</strong> <span id="nameText"></span></p>
+            <p><strong>Birth Year:</strong> <span id="yearText"></span></p>
+            <p><strong>Age:</strong> <span id="ageText"></span></p>
+            <p><strong>Is Developer:</strong> <span id="developerText"></span></p>
+            <p><strong>Number of Hobbies:</strong> <span id="hobbyCountText"></span></p>
+        </section>
+
+        <section class="box" id="part2">
+            <h2>Part 2: Update Profile</h2>
+            <form id="profileForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your name" required>
+
+                <label for="birthYear">Birth Year</label>
+                <input type="number" id="birthYear" min="1900" placeholder="Enter your birth year" required>
+
+                <button type="submit">Create / Update Profile</button>
+            </form>
+        </section>
+
+        <section class="box" id="part3">
+            <h2>Part 3: My Hobbies</h2>
+            <ul id="hobbyList">
+                <li>Football</li>
+                <li>Music</li>
+            </ul>
+
+            <label for="hobbyInput">New Hobby</label>
+            <input type="text" id="hobbyInput" placeholder="Enter a hobby">
+
+            <div class="buttons">
+                <button type="button" id="addButton">Add Item</button>
+                <button type="button" id="removeButton">Remove Item</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Web Technologies 1 | Assignment 5</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
