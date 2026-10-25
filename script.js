@@ -1,7 +1,7 @@
 const userProfile = {
     name: "Nurkadyr",
     birthYear: 2007,
-    isDeveloper: false,
+    isDeveloper: true,
     hobbies: ["Football", "Music"]
 };
 
